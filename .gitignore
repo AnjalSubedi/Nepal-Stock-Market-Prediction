@@ -1,0 +1,22 @@
+# Ignore helper/patch scripts
+patch_nb.py
+fix_notebook.py
+fix_paths.py
+read_nb.py
+run_test.py
+tune_models.py
+build_lstm_notebook.py
+best_params.json
+kernel-metadata.json
+
+# Ignore pulled kaggle output folders
+kaggle_pull/
+lstm_output/
+
+# Ignore data (too large for GitHub)
+Data/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
