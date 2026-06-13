@@ -38,22 +38,15 @@ A comprehensive end-to-end machine learning project on NEPSE (Nepal Stock Exchan
 ## 🗂️ Project Structure
 ```
 nepal-stock-market.ipynb   ← Main notebook (EDA + 3 ML tasks)
-nepal-stock-lstm-mtl.ipynb ← LSTM Multi-Task Learning (run on Kaggle GPU)
 Data/
   OHLC.csv                 ← Raw OHLCV data
 ```
 
-## 🚀 LSTM Extension
-A separate notebook (`nepal-stock-lstm-mtl.ipynb`) implements an **LSTM Multi-Task Learning** model trained on **all NEPSE stocks simultaneously** with:
-- Stock embeddings (each stock gets a learned representation)
-- Shared LSTM layers + task-specific output heads
-- Designed to run on **Kaggle GPU** ([view on Kaggle](https://www.kaggle.com/code/anjal12/nepal-stock-lstm-mtl))
 
 ## 🛠️ Requirements
 ```
 pandas, numpy, matplotlib, seaborn
 scikit-learn, xgboost
-tensorflow / keras (for LSTM notebook)
 ```
 
 ---
